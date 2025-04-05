@@ -21,6 +21,8 @@ public class LinearSearch {
      */
     public int linearSearch(int[] arr, int k) {
         int size = arr.length; // Get the length of the array
+        if(size<1)
+        	return -1;
 
         // Traverse the array from start to end
         for (int i = 0; i < size; i++) {
